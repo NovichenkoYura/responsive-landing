@@ -12,6 +12,7 @@
     min-width: 296px;
     height: 357px;
     padding: 0 15px 0 15px;
+    transition: $transitionGeneral;
     // width: 30%;
     &:hover,
     &:focus {

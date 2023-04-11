@@ -1,0 +1,61 @@
+@import "../../variables/variables.scss";
+
+.subscribeForm-c {
+  background: rgba(0, 0, 0, 0) url("../../images/bg_subscribe.png") repeat
+    scroll center center / cover;
+  height: 455px;
+  padding: 130px 0 115px;
+  border: 1px solid red;
+  .subscribeForm-wrap {
+    max-width: 1155px;
+    width: 98%;
+    height: 210px;
+    .subscribeForm-heading {
+      max-width: 555px;
+      h2 {
+        margin-bottom: 24px;
+        position: relative;
+        line-height: 30px;
+        font-size: 40px;
+        font-weight: 600;
+        color: $primaryTitleColor;
+      }
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+        margin: 0 0 15px;
+        color: $primaryTextColor;
+      }
+    }
+    .subscribeForm-form {
+      input {
+        background: transparent none repeat scroll 0 0;
+        border: 1px solid $redSubscrForm;
+        border-radius: 5px;
+        box-shadow: none;
+        color: #444444;
+        font-size: 12px;
+        font-weight: normal;
+        height: 45px;
+        margin-right: 15px;
+        padding-left: 20px;
+        width: 30%;
+      }
+      button {
+        background-color: $redSubscrForm;
+        border-radius: 5px;
+        color: $whiteText;
+        font-weight: 700;
+        height: 45px;
+        text-transform: uppercase;
+        width: 155px;
+        transition: $transitionGeneral;
+        &:hover,
+        &:focus {
+          background-color: $hoverFoculLigt;
+        }
+      }
+    }
+  }
+}

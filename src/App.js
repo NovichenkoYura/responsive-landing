@@ -7,6 +7,7 @@ import { Service } from './components/Service/Service';
 import { FunFacts } from './components/FunFacts/FunFacts';
 import { Client } from './components/Client/Client';
 import { Team } from './components/Team/Team';
+import { SubscribeForm } from './components/SubscribeForm/SubscribeForm';
 
 function App() {
   const [isHeader, setHeader] = useState(false)
@@ -30,6 +31,7 @@ function App() {
       <FunFacts/>
       <Client/>
       <Team/>
+      <SubscribeForm/>
     
     </div>
   );

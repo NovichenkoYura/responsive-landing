@@ -8,7 +8,16 @@
   height: 474px;
 }       
 
-section
+
 variables
 why pricing margin 100px? not padding?
 gap in team less than in the original
+
+
+mobile header
+подключить иконки
+медиазапросы
+фанфактс - оживиить цифры
+
+
+

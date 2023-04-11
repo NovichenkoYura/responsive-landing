@@ -12,8 +12,14 @@
       gap: 30px;
       position: relative;
       .team-elem {
+        border-radius: 10px;
         width: 265px;
         height: 280px;
+        transition: $transitionGeneral;
+        &:hover,
+        &:focus {
+          box-shadow: $boxShadowWide;
+        }
       }
 
       .team-description {
