@@ -1,0 +1,58 @@
+@import "../../variables/variables.scss";
+
+.service {
+  background-color: $bg-gray;
+  .max1170 {
+  }
+  .service-c-elem {
+  }
+
+  .service-elem {
+    max-width: 365px;
+    min-width: 296px;
+    height: 357px;
+    padding: 0 15px 0 15px;
+    // width: 30%;
+    &:hover,
+    &:focus {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    }
+  }
+  .service-icon {
+    margin-right: 20px;
+  }
+  .service-elem-content {
+  }
+  .service-elem-title {
+    text-align: left;
+    // padding: 15px 0 0 0;
+    margin: 0 0 8px 0;
+    font-size: 24px;
+    font-weight: 600;
+    color: $primaryTitleColor;
+  }
+  .service-elem-discription {
+    text-align: left;
+    color: $primaryTextColor;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 15px;
+  }
+}
+
+// delete
+
+.pricingPlan-c-elem {
+  background-color: red;
+  margin: 100px 0;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.pricingPlan-elem {
+  background-color: green;
+  max-width: 365px;
+  width: 30%;
+  min-width: 296px;
+  height: 474px;
+}

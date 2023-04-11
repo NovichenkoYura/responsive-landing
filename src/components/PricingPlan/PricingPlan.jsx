@@ -4,7 +4,7 @@ export const PricingPlan = () => {
   return (
     <div className="pricingPlan center">
         <div className='max1170'>
-            <div className='pricingPlan-c-elem beetween'>
+            <div className='pricingPlan-c-elem between'>
                 <div className="pricingPlan-elem">
                     <h3>BASIC</h3>
                     <h2>40</h2>

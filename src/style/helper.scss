@@ -1,42 +1,56 @@
 * {
-    text-decoration: none;
-    background: transparent;
-    border: none;
-    padding: 0;
-    margin: 0;
+  text-decoration: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
 }
-// display 
+// display
 .flex {
-    display: flex;
+  display: flex;
 }
 .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .centerColumn {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-.beetween {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.flexJustifyEnd {
-    display: flex;
-    justify-content: flex-end;
-}
-.flexColumnJustifyStart {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
-// width content 
+.leftColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexJustifyEnd {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flexRowJustifyStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flexColumnJustifyStart {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+// width content
 .max1170 {
-    max-width: 1170px;
-    width: 98%;
+  max-width: 1170px;
+  width: 98%;
 }
