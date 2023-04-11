@@ -27,11 +27,16 @@ function App() {
       <Header isHeader={isHeader}/>
       <Hero/>
       <PricingPlan/>
-      <Service />
+      {/* <Service /> */}
       <FunFacts/>
       <Client/>
-      <Team/>
+      {/* <Team/> */}
       <SubscribeForm/>
+      
+
+      {/* <div className='test'></div> */}
+    <div className='block'></div>
+
     
     </div>
   );

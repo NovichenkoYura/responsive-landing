@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.test {
+
+  border-color: rgba(0, 0, 0, 0) linear-gradient(to top, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
+
+  width: 50px;
+  height: 50px;
+  border-radius: 60px;
+}
+.block {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  margin-left: 50px;
+}

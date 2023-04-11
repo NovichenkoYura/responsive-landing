@@ -4,6 +4,7 @@
   top: 0;
   padding-top: 30px;
   width: 100%;
+  // width: 100vw;
   transition: all 0.3s;
   z-index: 5;
   &.move {
@@ -11,6 +12,21 @@
       linear-gradient(to right, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
     box-shadow: 0 0 20px -10px #000;
     padding-top: 0;
+  }
+  .header-c-logo-burger {
+    
+    .header-burger-menu {
+      width: 25px;
+      height: 25px;
+      display: none;
+
+      div {
+        background-color: white;
+        width: 100%;
+        height: 4px;
+        border-radius: 4px;
+      }
+    }
   }
   .logo {
     margin-right: 20px;
@@ -22,6 +38,36 @@
       color: #ffffff;
     }
     .download {
+    }
+  }
+}
+
+
+@media screen and (max-width : 750px){
+  .header { 
+    z-index: 20;
+    height: auto;
+    .header-content {
+      display: block;
+      // flex-direction: column;
+
+    }
+    .header-c-logo-burger {
+      width: 100%;
+      .header-burger-menu {
+        display: flex;
+        
+      }
+    }
+    .c-nav {
+      display: none;
+      .link {
+        padding: 20px 0 ;
+      }
+     &.open {
+      display: flex;
+      flex-direction: column;
+     }
     }
   }
 }

@@ -56,7 +56,13 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-  }
+}
+.flexJustifyEvenly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
 
 // width content
 .max1170 {
