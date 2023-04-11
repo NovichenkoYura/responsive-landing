@@ -1,0 +1,30 @@
+.client {
+  background: rgba(0, 0, 0, 0) url(../../images/bg-client.webp) repeat scroll
+    center center / cover;
+  height: 378px;
+  .client-feedback {
+    max-width: 1155px;
+  }
+  p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    margin: 0 0 30px;
+    padding: 0 124px;
+  }
+  h4 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    font-weight: 400;
+  }
+}
+
+// .funfacts {
+//     background: rgba(0, 0, 0, 0) url("../../images/bg_fan_facts.png") repeat
+//       scroll center center;
+//     background-size: cover;
+//     flex-grow: 1;
+//     height: 329px;
+//     //   padding: 125px 0 100px;

@@ -1,0 +1,54 @@
+@import "../../variables/variables.scss";
+
+.team {
+  margin: 130px 0;
+  .team-wrap {
+    max-width: 1155px;
+    height: 449px;
+    flex-wrap: wrap;
+    .team-c-elem {
+      max-width: 1185px;
+      flex-wrap: wrap;
+      gap: 30px;
+      position: relative;
+      .team-elem {
+        width: 265px;
+        height: 280px;
+      }
+
+      .team-description {
+        position: absolute;
+        background-color: $hoverFoculLigt;
+        padding: 22px 0 12px 0;
+        h5 {
+          color: $whiteText;
+          font-weight: 600;
+          font-size: 18px;
+        }
+        h6 {
+          font-size: 14px;
+          font-weight: 400;
+          color: $whiteText;
+        }
+      }
+    }
+  }
+
+  .team-heading {
+    max-width: 554px;
+    h2 {
+      margin-bottom: 24px;
+      color: $primaryTitleColor;
+      font-size: 40px;
+      line-height: 30px;
+      font-weight: 600;
+    }
+    p {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 25px;
+      margin: 0 0 15px;
+      color: $primaryTextColor;
+    }
+  }
+}

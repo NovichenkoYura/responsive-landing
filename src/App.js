@@ -5,6 +5,8 @@ import { Hero } from './components/Hero/Hero';
 import { PricingPlan } from './components/PricingPlan/PricingPlan';
 import { Service } from './components/Service/Service';
 import { FunFacts } from './components/FunFacts/FunFacts';
+import { Client } from './components/Client/Client';
+import { Team } from './components/Team/Team';
 
 function App() {
   const [isHeader, setHeader] = useState(false)
@@ -26,6 +28,8 @@ function App() {
       <PricingPlan/>
       <Service />
       <FunFacts/>
+      <Client/>
+      <Team/>
     
     </div>
   );

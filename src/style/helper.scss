@@ -4,6 +4,7 @@
   border: none;
   padding: 0;
   margin: 0;
+  font-family: "Open sans";
 }
 // display
 .flex {
@@ -13,6 +14,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: op;
 }
 .centerColumn {
   display: flex;
@@ -49,8 +51,20 @@
   align-items: flex-start;
 }
 
+.flexColumnJustifyBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
 // width content
 .max1170 {
   max-width: 1170px;
   width: 98%;
+}
+
+// hidden
+.hidden {
+  display: none;
 }
