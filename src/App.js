@@ -9,6 +9,7 @@ import { Client } from './components/Client/Client';
 import { Team } from './components/Team/Team';
 import { SubscribeForm } from './components/SubscribeForm/SubscribeForm';
 import { Footer } from './components/Footer/Footer';
+import { Features } from './components/Features/Features';
 
 function App() {
   const [isHeader, setHeader] = useState(false)
@@ -27,9 +28,10 @@ function App() {
     <div className="App">
       <Header isHeader={isHeader}/>
       <Hero/>
-      <PricingPlan/>
       <Service />
+      <Features/>
       <FunFacts/>
+      <PricingPlan/>
       <Client/>
       <Team/>
       <SubscribeForm/>

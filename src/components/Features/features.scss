@@ -1,0 +1,59 @@
+@import "../../style/Variables.scss";
+
+.features-c {
+  height: 747px;
+  background-color: $bg-gray;
+  padding: 128px 0 70px;
+  .feature-heading {
+    width: 555px;
+    h2 {
+      font-size: $titleDeskTextSize;
+      font-weight: $mediumTextWeight;
+      margin-bottom: 24px;
+      color: $primaryTitleColor;
+    }
+    p {
+      font-size: $pDeskTextSize;
+      font-weight: $pDeskTextWeight;
+      margin-bottom: 10px;
+      color: $primaryTextColor;
+    }
+  }
+  .features-c-elems {
+    flex-wrap: wrap;
+    .feature-elem {
+      width: 365px;
+      height: 194px;
+      padding: 40px 0 35px;
+      margin: 0 0 20px 0;
+      .feature-elem-icon {
+        background: rgba(0, 0, 0, 0)
+          linear-gradient(to top, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
+        width: 60px;
+        height: 60px;
+        border-radius: 60px;
+        z-index: 0;
+        span {
+          width: 58px;
+          height: 58px;
+          border-radius: 58px;
+          z-index: 1;
+          background-color: #f5f7fa;
+          color: #4c5462;
+        }
+      }
+      .feature-elem-title {
+        font-size: $smallTitleDeskSize;
+        font-weight: $pDeskTextWeight;
+        color: $primaryTitleColor;
+        margin-bottom: 15px;
+      }
+      p {
+        font-size: $pDeskTextSize;
+        font-weight: $pDeskTextWeight;
+        color: $primaryTextColor;
+        width: 265px;
+      }
+    }
+  }
+}
