@@ -1,0 +1,134 @@
+@import "../../style/Variables.scss";
+.footer-c {
+  background: rgba(0, 0, 0, 0) url("../../images/bg_footer.png") repeat scroll
+    center center / cover;
+  height: 290px;
+  padding: 70px 0;
+  .footer-content {
+    height: 290px;
+
+    .footer-contact-c {
+      .footer-contact-elem {
+        width: 365px;
+        .icofont {
+          color: white;
+        }
+        .footer-contact-content {
+          margin-left: 10px;
+          p {
+            font-size: $pDeskTextSize;
+            font-weight: $pDeskTextWeight;
+            color: $whiteText;
+          }
+        }
+      }
+    }
+    .footer-social-c {
+      .footer-social-wrap {
+        p {
+          font-size: $pDeskTextSize;
+          font-weight: $pDeskTextWeight;
+          color: $whiteText;
+        }
+        .footer-social-list {
+            margin-bottom: 35px;
+          .footer-social-elem {
+            width: 45px;
+            height: 45px;
+            background-color: $whiteText;
+            border-radius: 50%;
+            margin: 0 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+// .footer__container{
+//     height: 586px;
+//     padding: 70px 0;
+//     display: block;
+//     background: url("https://htmldemo.net/moto/moto/img/bg/5.png") repeat scroll center center;
+//     background-size: cover;
+//     flex-grow: 1;
+// }
+
+// .footer__contacts-wrap{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding-bottom: 30px;
+
+// }
+
+// .footer__contacts{
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     margin: 0 0 30px 0;
+//     padding: 0 12px;
+// }
+
+// .footer__contact-icon{
+//     width: 40px;
+//     height: 40px;
+//     background-color: green;
+
+// }
+// .icofont-phone:before {
+//     content: "\f09c";
+
+// }
+
+// .footer__phone{
+//     display: flex;
+//     flex-direction: column;
+//     p{
+//     font-family: 'Open Sans', sans-serif;
+//     font-size: 14px;
+//     font-weight: 400;
+//     line-height: 25px;
+//     color: #ffff;
+//     }
+// }
+
+// .footer__social{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+// }
+
+// .footer__social-list{
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+//     width: 426px;
+//     padding: 70px 0 35px 0;
+
+// }
+
+// .footer__social__item{
+//     width: 45px;
+//     height: 45px;
+//     background-color: #ffff;
+//     border-radius: 50%;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     margin: 0 5px;
+// }
+
+// .footer__copyright{
+
+//     p{
+//     color: #fff;
+//     font-size: 13px;
+//     margin-bottom: 0;
+//     padding: 0;
+//     font-weight: 400;
+//     line-height: 25px;
+//     }
+
+// }

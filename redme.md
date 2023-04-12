@@ -1,4 +1,9 @@
+camel case - uniwstyles?
+размер иконок
+ 
+ 
 
+ 
  для чего минвиз
 .pricingPlan-elem {
   background-color: green;

@@ -23,7 +23,7 @@ export const Service = ()=>{
                     </div>
                     <div className="service-elem between">                    
                         <div className="service-icon">
-                            <img src={icon1} alt="customize" />
+                            <img src={icon2} alt="customize" />
                         </div>
                         <div className="service-elem-content leftColumn">
                             <h2 className="service-elem-title">Awesome Design</h2>
@@ -35,7 +35,7 @@ export const Service = ()=>{
                     </div>
                     <div className="service-elem between">                    
                         <div className="service-icon">
-                            <img src={icon1} alt="customize" />
+                            <img src={icon3} alt="customize" />
                         </div>
                         <div className="service-elem-content leftColumn">
                             <h2 className="service-elem-title">Easy to Use</h2>

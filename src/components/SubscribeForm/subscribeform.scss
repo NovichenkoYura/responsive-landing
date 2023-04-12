@@ -1,11 +1,9 @@
-@import "../../variables/variables.scss";
+@import "../../style/variables.scss";
 
 .subscribeForm-c {
   background: rgba(0, 0, 0, 0) url("../../images/bg_subscribe.png") repeat
     scroll center center / cover;
-  height: 455px;
   padding: 130px 0 115px;
-  border: 1px solid red;
   .subscribeForm-wrap {
     max-width: 1155px;
     width: 98%;
@@ -29,6 +27,9 @@
       }
     }
     .subscribeForm-form {
+      max-width: 1155px;
+     width: 100%;
+
       input {
         background: transparent none repeat scroll 0 0;
         border: 1px solid $redSubscrForm;
