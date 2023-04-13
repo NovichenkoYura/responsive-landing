@@ -1,4 +1,4 @@
-@import "../../style/Variables.scss";
+@import "../../style/variables.scss";
 .footer-c {
   background: rgba(0, 0, 0, 0) url("../../images/bg_footer.png") repeat scroll
     center center / cover;
@@ -46,6 +46,13 @@
             background-color: $whiteText;
             border-radius: 50%;
             margin: 0 12px;
+            transition: $transitionGeneral;
+            cursor: pointer;
+            &:hover,
+            &:focus {
+              background-color: $hoverFoculLigt;
+              color: $whiteText;
+            }
           }
         }
       }
@@ -53,12 +60,9 @@
   }
 }
 
-
-
-@media screen and (max-width : 750px){
+@media screen and (max-width: 750px) {
   .footer-c {
     .footer-content {
-  
       .footer-contact-c {
         flex-direction: column;
         .footer-contact-elem {

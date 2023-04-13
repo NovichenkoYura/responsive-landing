@@ -1,11 +1,11 @@
-@import "../../style/Variables.scss";
+@import "../../style/variables.scss";
 
 .features-c {
   height: 747px;
   background-color: $bg-gray;
   padding: 128px 0 70px;
   .feature-heading {
-    width: 555px;
+    max-width: 555px;
     h2 {
       font-size: $titleDeskTextSize;
       font-weight: $mediumTextWeight;

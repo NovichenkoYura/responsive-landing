@@ -1,7 +1,7 @@
 import './features.scss'
 export const Features = () => {
     return(
-        <div className="features-c flexColumnJustifyBetween" id="features">
+        <div className="features-c flexColumnJustifyBetween" id="client">
             <div className="max1170 flexColumnJustifyBetween">
                 <div className="feature-heading flexColumnJustifyBetween">
                     <h2>Best Features</h2>

@@ -1,13 +1,73 @@
-.pricingPlan-c-elem {
-  background-color: red;
-  // margin: 100px 0;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-.pricingPlan-elem {
-  background-color: green;
-  max-width: 365px;
-  width: 30%;
-  min-width: 296px;
-  height: 474px;
+@import "../../style/variables.scss";
+.pricingPlan {
+  height: 643px;
+  padding: 130px 0 100px;
+  .pricingPlan-wrap {
+    .pricingPlan-heading {
+      max-width: 555px;
+      margin-bottom: 55px;
+      h2 {
+        font-size: $titleDeskTextSize;
+        font-weight: $mediumTextWeight;
+        margin-bottom: 24px;
+        color: $primaryTitleColor;
+      }
+      p {
+        font-size: $pDeskTextSize;
+        font-weight: $pDeskTextWeight;
+        margin-bottom: 10px;
+        color: $primaryTextColor;
+        text-align: center;
+      }
+    }
+    .pricingPlan-c-elem {
+      // margin: 100px 0;
+      flex-wrap: wrap;
+      gap: 10px;
+      .pricingPlan-elem {
+        padding-top: 65px;
+        box-shadow: $boxShadowNarrow;
+        max-width: 365px;
+        width: 30%;
+        min-width: 296px;
+        height: 379px;
+        border-radius: 10px;
+        cursor: pointer;
+        h4 {
+          font-size: 20px;
+          font-weight: $pDeskTextWeight;
+          color: $primaryTextColor;
+        }
+        span {
+          font-size: 50px;
+          font-weight: 300;
+          color: $primaryTitleColor;
+        }
+        p {
+          font-size: 16px;
+          color: $primaryTextColor;
+        }
+        .pricing-btn {
+          box-shadow: 0 0 30px 0px rgba(0, 0, 0, 0.1);
+          display: inline-block;
+          font-size: 15px;
+          font-weight: 600;
+          padding: 24px 45px;
+          color: $primaryTitleColor;
+          transition: all 0.4s ease 0s;
+          text-transform: uppercase;
+        }
+        &:hover,
+        &:focus {
+          background-color: $hoverFoculLigt;
+          h4,
+          span,
+          p,
+          .pricing-btn {
+            color: $whiteText;
+          }
+        }
+      }
+    }
+  }
 }
