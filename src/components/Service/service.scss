@@ -7,9 +7,7 @@
     max-width: 365px;
     min-width: 296px;
     height: 357px;
-    // padding: 0 15px 0 15px;
     transition: $transitionGeneral;
-    // width: 30%;
     &:hover,
     &:focus {
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
@@ -22,7 +20,6 @@
   }
   .service-elem-title {
     text-align: left;
-    // padding: 15px 0 0 0;
     margin: 0 0 8px 0;
     font-size: 24px;
     font-weight: 600;
@@ -38,7 +35,6 @@
   }
 }
 .service-c-elem {
-  
   width: 100%;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -46,33 +42,15 @@
 
 @media screen and (max-width: $mobScreenSize) {
   .service {
-       
     .max1170 {
       .service-wrap {
-        
         .pricingPlan-c-elem {
-          flex-direction: column;
           justify-content: center;
-          align-items: center;
+
           .pricingPlan-elem {
-            
           }
         }
       }
     }
   }
 }
-
-// @media screen and (max-width: $tabScreenSize) {
-//   .pricingPlan {
-//     .pricingPlan-wrap {
-//       .pricingPlan-c-elem {
-//         flex-direction: row;
-//         justify-content: space-between;
-//         .pricingPlan-elem {
-//           // margin-bottom: 30px;
-//         }
-//       }
-//     }
-//   }
-// }

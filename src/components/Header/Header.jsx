@@ -17,7 +17,7 @@ return(
         </div>
     </div>
     <nav className={'c-nav between ' + burger}>
-        <a className='link' href='#home'>Home</a>
+        <a className='link' href='#hero'>Home</a>
         <a className='link' href='#about'>About</a>
         <a className='link' href='#features'>Features</a>
         <a className='link' href='#pricing'>Pricing</a>

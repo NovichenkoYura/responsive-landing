@@ -3,22 +3,17 @@
 .team {
   margin: 130px 0;
   .team-wrap {
-    // max-width: 1155px;
     width: 100%;
-    // height: 449px;
     .team-heading {
       padding-bottom: 55px;
     }
     .team-c-elem {
-      // max-width: 1185px;
       width: 100%;
       flex-wrap: wrap;
       justify-content: space-between;
-      // gap: 30px;
       .team-elem {
         position: relative;
         border-radius: 10px;
-        // max-width: 265px;
         width: 25%;
         overflow: hidden;
         transition: $transitionGeneral;
@@ -35,10 +30,8 @@
           .team-description {
             padding: 22px 0 12px 0;
             text-align: center;
-            // top: auto;
             margin-top: 0;
             opacity: 1;
-            // padding: 0;
           }
         }
 
@@ -50,7 +43,6 @@
           width: 100%;
           margin-top: -400px;
           text-align: center;
-          // top: -200px;
           opacity: 0;
           h5 {
             color: $whiteText;

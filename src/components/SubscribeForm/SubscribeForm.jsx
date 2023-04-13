@@ -14,12 +14,9 @@ export const SubscribeForm = () =>{
                 <form className='center subscribeForm-form '>
                     <input placeholder="Enter Your Email" type="text" />
                     <button type="submit" >Subscribe</button>
-                </form>
-                
-
+                </form>              
 
             </div>
-
 
             </div>
         </div>

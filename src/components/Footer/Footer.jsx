@@ -29,7 +29,7 @@ export const Footer = () => {
 
             </div>
         <div className="footer-social-c">
-          <div className="footer-social-wrap">
+          <div className="footer-social-wrap centerColumn">
             <div className="footer-social-list center">
               <div className="footer-social-elem center">
                   <i className="icofont-facebook footer-icon-social"></i>

@@ -1,14 +1,11 @@
 @import "../../style/variables.scss";
 .footer-c {
   background: rgba(0, 0, 0, 0) url("../../images/bg_footer.png") repeat scroll
-    center center / cover;
-  height: 290px;
+    center center / cover;  
   padding: 70px 0;
-  .footer-content {
-    height: 290px;
-
+  .footer-content {  
     .footer-contact-c {
-      // background-color: red;
+      margin-bottom: 150px;
       width: 100%;
       .footer-contact-elem {
         max-width: 365px;
@@ -80,6 +77,16 @@
             align-items: center;
           }
         }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobScreenSize) {
+  .footer-c {
+    .footer-content {
+      .footer-contact-c {
+        margin-bottom: 140px;
       }
     }
   }

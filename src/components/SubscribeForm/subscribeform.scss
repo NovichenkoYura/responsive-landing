@@ -5,9 +5,7 @@
     scroll center center / cover;
   padding: 130px 0 115px;
   .subscribeForm-wrap {
-    // max-width: 1155px;
     width: 100%;
-    // height: 210px;
     .subscribeForm-heading {
       max-width: 555px;
       h2 {
@@ -28,7 +26,6 @@
       }
     }
     .subscribeForm-form {
-      max-width: 1155px;
       width: 100%;
 
       input {
@@ -56,6 +53,36 @@
         &:hover,
         &:focus {
           background-color: $hoverFoculLigt;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobScreenSize) {
+  .subscribeForm-c {
+    .max1170 {
+      max-width: 426px;
+      .subscribeForm-heading {
+        margin-bottom: 45px;
+        h2 {
+          text-align: center;
+          line-height: 45px;
+          margin-bottom: 24px;
+        }
+        p {
+          text-align: center;
+          line-height: 25px;
+        }
+      }
+      .subscribeForm-form {
+        max-width: 426px;
+        flex-direction: column;
+        input {
+          width: 100%;
+        }
+        button {
+          margin-top: 15px;
         }
       }
     }

@@ -1,6 +1,5 @@
 @import "../../style/variables.scss";
 .pricingPlan {
-  // height: 643px;
   padding: 130px 0 100px;
   .pricingPlan-wrap {
     width: 100%;
@@ -22,11 +21,9 @@
       }
     }
     .pricingPlan-c-elem {
-      // margin: 100px 0;
       width: 100%;
       justify-content: space-between;
       flex-wrap: wrap;
-      // gap: 10px;
       .pricingPlan-elem {
         padding-top: 65px;
         box-shadow: $boxShadowNarrow;
@@ -84,7 +81,6 @@
         flex-direction: column;
         justify-content: center;
         .pricingPlan-elem {
-          // margin-bottom: 30px;
         }
       }
     }
@@ -98,7 +94,6 @@
         flex-direction: row;
         justify-content: space-between;
         .pricingPlan-elem {
-          // margin-bottom: 30px;
         }
       }
     }

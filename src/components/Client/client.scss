@@ -3,30 +3,22 @@
 .client {
   background: rgba(0, 0, 0, 0) url(../../images/bg-client.webp) repeat scroll
     center center / cover;
-  height: 378px;
-  .client-feedback {
-    max-width: 1155px;
-  }
+  padding: 120px 0 130px 0;
+  
   p {
     color: #fff;
     font-size: 20px;
     font-weight: 300;
     line-height: 35px;
     margin: 0 0 30px;
-    padding: 0 124px;
+    text-align: center;
   }
   h4 {
     color: #fff;
     font-size: 24px;
     margin: 0;
     font-weight: 400;
+    text-align: center;
   }
 }
 
-// .funfacts {
-//     background: rgba(0, 0, 0, 0) url("../../images/bg_fan_facts.png") repeat
-//       scroll center center;
-//     background-size: cover;
-//     flex-grow: 1;
-//     height: 329px;
-//     //   padding: 125px 0 100px;

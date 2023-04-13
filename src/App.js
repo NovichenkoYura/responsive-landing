@@ -48,7 +48,7 @@ function App() {
       <Header isHeader={isHeader}/>
       <Hero/>
       <Service />
-      {/* <Features/> */}
+      <Features/>
       <FunFacts/>
       <PricingPlan/>
       <Client/>

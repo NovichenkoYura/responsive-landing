@@ -8,7 +8,7 @@ export const Service = ()=>{
     return(
         <div className="service center">
             <div className="max1170 ">
-                <div className="service-wrap">
+                <div className="service-wrap flexColumnJustifyBetween">
                 <div className="service-c-elem between">
                     <div className="service-elem between">                    
                         <div className="service-icon">

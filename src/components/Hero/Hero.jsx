@@ -5,7 +5,7 @@ import slider from '../../images/slider.png'
 
 export const Hero = () => {
   return (
-    <div className='hero-c center header_elem' title='top'>
+    <div className='hero-c center header_elem'  title='top' id="hero">
       <img src={slider} alt="" className='hero-slider' />
       <div className='max1170 flexJustifyEnd'>
         <div className="flexColumnJustifyStart hero-content">
