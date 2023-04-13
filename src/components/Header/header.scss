@@ -46,18 +46,18 @@
       &:hover,
       &:focus {
         background-color: $hoverFoculLigt;
-        border: 1px solid $hoverFoculLigt;        
+        border: 1px solid $hoverFoculLigt;
       }
     }
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: $mobScreenSize) {
   .header {
     z-index: 20;
     height: auto;
     .header-content {
-      display: block;      
+      display: block;
     }
     .header-c-logo-burger {
       width: 100%;

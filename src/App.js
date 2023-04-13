@@ -47,7 +47,7 @@ function App() {
     <div className="App">
       <Header isHeader={isHeader}/>
       <Hero/>
-      {/* <Service /> */}
+      <Service />
       {/* <Features/> */}
       <FunFacts/>
       <PricingPlan/>

@@ -32,19 +32,19 @@ export const Footer = () => {
           <div className="footer-social-wrap">
             <div className="footer-social-list center">
               <div className="footer-social-elem center">
-                  <i className="icofont-facebook"></i>
+                  <i className="icofont-facebook footer-icon-social"></i>
               </div>
               <div className="footer-social-elem center">          
-                  <i className="icofont-twitter"></i>
+                  <i className="icofont-twitter footer-icon-social"></i>
               </div>
               <div className="footer-social-elem center">
-                  <i className="icofont-pinterest"></i>
+                  <i className="icofont-pinterest footer-icon-social"></i>
               </div>
               <div className="footer-social-elem center">
-                  <i className="icofont-vimeo"></i>
+                  <i className="icofont-vimeo footer-icon-social"></i>
               </div>
               <div className="footer-social-elem center">
-                  <i className="icofont-google-plus"></i>
+                  <i className="icofont-google-plus footer-icon-social"></i>
               </div>
             </div>
             <p>Copyright © <span>CodeCarnival.</span> All Rights Reserved.</p>

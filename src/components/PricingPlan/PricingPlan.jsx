@@ -5,7 +5,7 @@ export const PricingPlan = () => {
     <div className="pricingPlan flexColumnJustifyBetween" id="pricing">
         <div className='max1170'>
             <div className="pricingPlan-wrap flexColumnJustifyBetween">
-                <div className="pricingPlan-heading flexColumnJustifyBetween">
+                <div className="pricingPlan-heading centerColumn">
                     <h2>Pricing Plan</h2>
                     <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de
                     standaard proeftekst in deze bedrijfstak sinds.</p> 

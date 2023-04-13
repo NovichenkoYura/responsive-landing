@@ -16,8 +16,9 @@
           color: white;
         }
         .footer-icon-top {
-          font-size: 30px;
+          font-size: 35px;
         }
+
         .footer-contact-content {
           margin-left: 10px;
           p {
@@ -52,6 +53,9 @@
             &:focus {
               background-color: $hoverFoculLigt;
               color: $whiteText;
+            }
+            .footer-icon-social {
+              font-size: 20px;
             }
           }
         }

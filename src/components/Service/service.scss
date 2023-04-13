@@ -2,16 +2,12 @@
 
 .service {
   background-color: $bg-gray;
-  .max1170 {
-  }
-  .service-c-elem {
-  }
 
   .service-elem {
     max-width: 365px;
     min-width: 296px;
     height: 357px;
-    padding: 0 15px 0 15px;
+    // padding: 0 15px 0 15px;
     transition: $transitionGeneral;
     // width: 30%;
     &:hover,
@@ -41,5 +37,42 @@
     margin: 0 0 15px;
   }
 }
+.service-c-elem {
+  
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
-// delete
+@media screen and (max-width: $mobScreenSize) {
+  .service {
+       
+    .max1170 {
+      .service-wrap {
+        
+        .pricingPlan-c-elem {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          .pricingPlan-elem {
+            
+          }
+        }
+      }
+    }
+  }
+}
+
+// @media screen and (max-width: $tabScreenSize) {
+//   .pricingPlan {
+//     .pricingPlan-wrap {
+//       .pricingPlan-c-elem {
+//         flex-direction: row;
+//         justify-content: space-between;
+//         .pricingPlan-elem {
+//           // margin-bottom: 30px;
+//         }
+//       }
+//     }
+//   }
+// }

@@ -6,7 +6,7 @@ export const SubscribeForm = () =>{
             <div className="max1170">
             <div className="subscribeForm-wrap  flexColumnJustifyBetween ">
 
-                <div className="subscribeForm-heading ">
+                <div className="subscribeForm-heading flexColumnJustifyBetween">
                     <h2>Subscribe A Free Update</h2>
                     <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de
 							standaard proeftekst in deze bedrijfstak sinds.</p>
