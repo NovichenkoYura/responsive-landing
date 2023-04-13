@@ -10,7 +10,7 @@ export const PricingPlan = () => {
                     <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is de
                     standaard proeftekst in deze bedrijfstak sinds.</p> 
                 </div>
-                <div className='pricingPlan-c-elem between'>
+                <div className='pricingPlan-c-elem center'>
                     <div className="pricingPlan-elem flexColumnJustifyBetween">
                         <h4>BASIC</h4>
                         <span>40</span>

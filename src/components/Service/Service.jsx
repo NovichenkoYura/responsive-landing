@@ -9,8 +9,8 @@ export const Service = ()=>{
         <div className="service center">
             <div className="max1170 ">
                 <div className="service-wrap flexColumnJustifyBetween">
-                <div className="service-c-elem between">
-                    <div className="service-elem between">                    
+                <div className="service-c-elem center">
+                    <div className="service-elem flexJustifyAround">                    
                         <div className="service-icon">
                             <img src={icon1} alt="customize" />
                         </div>

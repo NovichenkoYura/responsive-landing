@@ -4,10 +4,11 @@
   background-color: $bg-gray;
 
   .service-elem {
-    max-width: 365px;
+    max-width: 315px;
     min-width: 296px;
     height: 357px;
     transition: $transitionGeneral;
+    padding: 0 25px;
     &:hover,
     &:focus {
       box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
@@ -45,6 +46,7 @@
     .max1170 {
       .service-wrap {
         .pricingPlan-c-elem {
+          flex-direction: column;
           justify-content: center;
 
           .pricingPlan-elem {
