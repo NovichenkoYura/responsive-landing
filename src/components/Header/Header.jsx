@@ -9,7 +9,7 @@ return(
    <header className={'header center ' + classHeader}>
     <div className='between max1170 header-content'>
     <div className='header-c-logo-burger flexJustifyEvenly'>
-        <img className='logo' src={logo}/>
+        <img className='logo' src={logo} alt='logo'/>
         <div onClick={()=>setBuregr(!isBurger) } className='header-burger-menu flexColumnJustifyBetween'>
             <div></div>
             <div></div>
@@ -17,14 +17,14 @@ return(
         </div>
     </div>
     <nav className={'c-nav between ' + burger}>
-        <a className='link' id='home'>Home</a>
-        <a className='link' id='home'>About</a>
-        <a className='link' id='home'>Features</a>
-        <a className='link' id='home'>Pricing</a>
-        <a className='link' id='home'>Client</a>
-        <a className='link' id='home'>Team</a>
-        <a className='link' id='home'>Contact</a>
-        <button className='download'>Download</button>
+        <a className='link' href='#home'>Home</a>
+        <a className='link' href='#about'>About</a>
+        <a className='link' href='#features'>Features</a>
+        <a className='link' href='#pricing'>Pricing</a>
+        <a className='link' href='#client'>Client</a>
+        <a className='link' href='#team'>Team</a>
+        <a className='link' href='#contact'>Contact</a>
+        <button className='download' type='button'>Download</button>
     </nav>
     </div>
    </header>

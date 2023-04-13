@@ -3,40 +3,68 @@
 .team {
   margin: 130px 0;
   .team-wrap {
-    max-width: 1155px;
-    height: 449px;
-    flex-wrap: wrap;
+    // max-width: 1155px;
+    width: 100%;
+    // height: 449px;
     .team-c-elem {
-      max-width: 1185px;
+      // max-width: 1185px;
+      width: 100%;
       flex-wrap: wrap;
-      gap: 30px;
-      position: relative;
+      justify-content: space-between;
+      // gap: 30px;
       .team-elem {
+        position: relative;
         border-radius: 10px;
-        width: 265px;
-        height: 280px;
+        // max-width: 265px;
+        width: 25%;
+        overflow: hidden;
         transition: $transitionGeneral;
+        .team-img {
+          transition: $transitionGeneral;
+          width: 100%;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
         &:hover,
         &:focus {
           box-shadow: $boxShadowWide;
+          .team-description {
+            padding: 22px 0 12px 0;
+            text-align: center;
+            // top: auto;
+            margin-top: 0;
+            opacity: 1;
+            // padding: 0;
+          }
+          
+          
+        }
+        
+        .team-description {
+          
+          transition: $transitionGeneral;
+          position: absolute;
+          background-color: $hoverFoculLigt;
+          padding: 22px 0 12px 0;
+          width: 100%;
+          margin-top: -400px;
+          text-align: center;
+          // top: -200px;
+          opacity: 0;
+          h5 {
+            color: $whiteText;
+            font-weight: 600;
+            font-size: 18px;
+          }
+          h6 {
+            font-size: 14px;
+            font-weight: 400;
+            color: $whiteText;
+          }
         }
       }
 
-      .team-description {
-        position: absolute;
-        background-color: $hoverFoculLigt;
-        padding: 22px 0 12px 0;
-        h5 {
-          color: $whiteText;
-          font-weight: 600;
-          font-size: 18px;
-        }
-        h6 {
-          font-size: 14px;
-          font-weight: 400;
-          color: $whiteText;
-        }
-      }
     }
   }
 
@@ -57,4 +85,34 @@
       color: $primaryTextColor;
     }
   }
+}
+
+
+@media screen and (max-width : 1000px){ 
+  .team {
+    .team-wrap {
+      .team-c-elem {
+        .team-elem {
+          padding: 0 12px;
+          width: calc(50% - 24px);
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+}
+@media screen and (max-width : 750px){ 
+  .team {
+    .team-wrap {
+      .team-c-elem {
+        justify-content: center;
+        .team-elem {
+          width: 100%;
+          max-width: 465px;
+        }
+      }
+    }
+  }
+
 }

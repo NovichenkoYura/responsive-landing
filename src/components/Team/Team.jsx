@@ -6,7 +6,7 @@ import team4 from '../../images/team_4.png';
 
 export const Team = () =>{
     return (
-        <div className="team center">
+        <div className="team center header_elem" id="team">
             <div className="max1170">
                 <div className="team-wrap flexColumnJustifyBetween">
                     <div className="team-heading">
@@ -16,9 +16,9 @@ export const Team = () =>{
 
                     </div>
                     <div className="team-c-elem between">
-                        <div className="team-elem">
+                        <div className="team-elem center">
                             <img src={team1} className="team-img" alt="team1"/>
-                            <div className="team-description ">
+                            <div className="team-description">
                                 <h5>Sathi Bhuiyan</h5>
                                 <h6>Lovely Designer</h6>
                             </div>
@@ -53,3 +53,5 @@ export const Team = () =>{
         </div>
     )
 }
+
+

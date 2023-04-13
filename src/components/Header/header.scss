@@ -1,10 +1,11 @@
+@import "../../style/Variables.scss";
+
 .header {
   position: fixed;
   height: 73px;
   top: 0;
   padding-top: 30px;
   width: 100%;
-  // width: 100vw;
   transition: all 0.3s;
   z-index: 5;
   &.move {
@@ -14,14 +15,13 @@
     padding-top: 0;
   }
   .header-c-logo-burger {
-    
     .header-burger-menu {
       width: 25px;
       height: 25px;
       display: none;
 
       div {
-        background-color: white;
+        background-color: $whiteText;
         width: 100%;
         height: 4px;
         border-radius: 4px;
@@ -35,39 +35,45 @@
     width: 100%;
     max-width: 780px;
     .link {
-      color: #ffffff;
+      color: $whiteText;
     }
     .download {
+      border: 1px solid $whiteText;
+      color: $whiteText;
+      border-radius: 4px;
+      padding: 8px 20px;
+      transition: $transitionGeneral;
+      &:hover,
+      &:focus {
+        background-color: $hoverFoculLigt;
+        border: 1px solid $hoverFoculLigt;        
+      }
     }
   }
 }
 
-
-@media screen and (max-width : 750px){
-  .header { 
+@media screen and (max-width: 750px) {
+  .header {
     z-index: 20;
     height: auto;
     .header-content {
-      display: block;
-      // flex-direction: column;
-
+      display: block;      
     }
     .header-c-logo-burger {
       width: 100%;
       .header-burger-menu {
         display: flex;
-        
       }
     }
     .c-nav {
       display: none;
       .link {
-        padding: 20px 0 ;
+        padding: 20px 0;
       }
-     &.open {
-      display: flex;
-      flex-direction: column;
-     }
+      &.open {
+        display: flex;
+        flex-direction: column;
+      }
     }
   }
 }

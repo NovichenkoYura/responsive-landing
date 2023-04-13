@@ -1,26 +1,26 @@
 import './footer.scss';
 export const Footer = () => {
   return (
-    <footer className='footer-c flexColumnJustifyBetween'>
+    <footer className='footer-c  flexColumnJustifyBetween'>
       <div className="max1170">
         <div className="footer-content flexColumnJustifyBetween">
-            <div className="footer-contact-c center">
+            <div className="footer-contact-c flexJustifyAround">
               <div className="footer-contact-elem center">
-                <i class="icofont icofont-phone-circle"></i>
+                <i className="icofont icofont-phone-circle footer-icon-top"></i>
                 <div className="footer-contact-content leftColumn">
                 <p>+012 345 678 102</p>
                 <p>+012 345 678 102</p>
                 </div>
               </div>
               <div className="footer-contact-elem center">
-                <i class="icofont icofont-web"></i>
+                <i className="footer-icon-top icofont icofont-web"></i>
                 <div className="footer-contact-content leftColumn">
                 <p>urname@email.com </p>
                 <p>urwebsitenaem.com</p>
                 </div>
               </div>
               <div className="footer-contact-elem center">
-                <i class="icofont icofont-google-map"></i>
+                <i className=" footer-icon-top icofont icofont-google-map"></i>
                 <div className="footer-contact-content leftColumn">
                 <p>ur address goes here, </p>
                 <p>street,Crossroad123.</p>

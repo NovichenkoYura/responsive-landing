@@ -13,7 +13,17 @@ import { Features } from './components/Features/Features';
 
 function App() {
   const [isHeader, setHeader] = useState(false)
+  const [top, setTop] = useState(false)
+
+  const scrollTopClick = (e) => {
+    window.scroll({top:0,behavior : 'smooth'})
+  }
+
   useEffect(()=>{
+// const headers_a = document.querySelectorAll('header .link')
+// const elem_for_a = document.querySelectorAll('.header_elem')
+// console.log(elem_for_a[1]);
+
     window.onscroll = e => {
       const scrollTop = window.pageYOffset;
       if(scrollTop > 0) {
@@ -21,6 +31,15 @@ function App() {
       } else {
         setHeader(false)
       }
+
+      if(scrollTop > 200){
+        setTop(true)
+      } else {
+        setTop(false)
+      }
+
+
+
       
     }
   },[])
@@ -28,8 +47,8 @@ function App() {
     <div className="App">
       <Header isHeader={isHeader}/>
       <Hero/>
-      <Service />
-      <Features/>
+      {/* <Service /> */}
+      {/* <Features/> */}
       <FunFacts/>
       <PricingPlan/>
       <Client/>
@@ -37,6 +56,10 @@ function App() {
       <SubscribeForm/>
       <Footer/> 
      
+     {top && <div onClick={scrollTopClick} className='btnTop'>
+     <i className="icofont-rounded-up"></i></div>}
+     {/* {top && <a href='#top' className='btnTop'>
+      $</a>} */}
 
 
 

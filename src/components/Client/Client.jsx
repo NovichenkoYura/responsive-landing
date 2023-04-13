@@ -2,7 +2,7 @@ import './client.scss'
 
 export const Client = () =>{
     return(
-        <div className="client center">
+        <div className="client center " id="client">
             <div className="max1170">
                 <div className="client-feedback">
                     <p>Mauris pharetra eget turpis at gravida. Praesent diam neque, varius at mi eget, molestie

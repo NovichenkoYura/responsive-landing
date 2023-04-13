@@ -8,10 +8,15 @@
     height: 290px;
 
     .footer-contact-c {
+      // background-color: red;
+      width: 100%;
       .footer-contact-elem {
-        width: 365px;
+        max-width: 365px;
         .icofont {
           color: white;
+        }
+        .footer-icon-top {
+          font-size: 30px;
         }
         .footer-contact-content {
           margin-left: 10px;
@@ -41,6 +46,30 @@
             background-color: $whiteText;
             border-radius: 50%;
             margin: 0 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media screen and (max-width : 750px){
+  .footer-c {
+    .footer-content {
+  
+      .footer-contact-c {
+        flex-direction: column;
+        .footer-contact-elem {
+          width: 300px;
+          margin-bottom: 30px;
+          .footer-icon-top {
+            font-size: 30px;
+          }
+          .footer-contact-content {
+            width: 100%;
+            align-items: center;
           }
         }
       }

@@ -5,15 +5,16 @@ import slider from '../../images/slider.png'
 
 export const Hero = () => {
   return (
-    <div className='hero-c center'>
+    <div className='hero-c center header_elem' title='top'>
       <img src={slider} alt="" className='hero-slider' />
       <div className='max1170 flexJustifyEnd'>
         <div className="flexColumnJustifyStart hero-content">
           <h1 className="hero-title">
-            Motor-sadas asd 
+          Moto All solution Head
           </h1>
           <p className='hero-text'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quis architecto esse doloribus labore quae recusandae. Accusantium unde adipisci inventore? Veritatis inventore fugit nulla harum aspernatur labore, reprehenderit voluptas fugiat!
+          Nulla aliquet, erat a egestas lacinia, leo libero dapibus nisl, quis pulvinar dolor justo
+								id turpis. Nulla odio orci.
           </p>
           <button className='hero-button'>DOWNLOAD</button>
           </div>
