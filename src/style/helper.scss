@@ -1,3 +1,4 @@
+@import "./variables.scss";
 * {
   text-decoration: none;
   background: transparent;
@@ -77,4 +78,12 @@
 // hidden
 .hidden {
   display: none;
+}
+
+
+@media screen and (max-width: $planshScreenSize) {
+  .max1170 {
+    // width: 80%;
+    max-width: 720px;
+  }
 }

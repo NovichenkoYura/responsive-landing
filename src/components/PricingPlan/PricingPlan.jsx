@@ -3,7 +3,7 @@ import './pricingPlan.scss'
 export const PricingPlan = () => {
   return (
     <div className="pricingPlan flexColumnJustifyBetween" id="pricing">
-        <div className='max1170'>
+        <div className='max1170 center'>
             <div className="pricingPlan-wrap flexColumnJustifyBetween">
                 <div className="pricingPlan-heading centerColumn">
                     <h2>Pricing Plan</h2>

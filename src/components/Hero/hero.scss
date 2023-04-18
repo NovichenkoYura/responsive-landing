@@ -6,6 +6,11 @@
   background: url("https://htmldemo.net/moto/img/moto/banner.webp") repeat
     scroll center center / cover !important;
   position: relative;
+
+  .hero-global-content {
+    width: 60%;
+  }
+
   .hero-slider {
     position: absolute;
     left: -2vw;
@@ -33,7 +38,8 @@
     color: #fff;
     font-size: 18px;
     margin: 0 0 35px;
-    padding: 0 196px 0 0;
+    // padding: 0 196px 0 0;
+    max-width: 350px;
     font-weight: $pDeskTextWeight;
   }
   .hero-button {
@@ -59,5 +65,25 @@
   }
   100% {
     left: -2vw;
+  }
+}
+
+@media screen and (max-width: $mobScreenSize) {
+  .hero-c {
+    .hero-g-c-body {
+      justify-content: center;
+    }
+    .hero-global-content {
+    //  width: 100%;
+     justify-content: center;
+   }
+   .hero-slider {
+    top: 380px;
+    left: auto;
+    right: 0px;
+    width: 45vw;
+
+   }
+
   }
 }
