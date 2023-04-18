@@ -75,6 +75,19 @@
   }
 }
 
+@media screen and (max-width: $tabScreenSize) {
+  .pricingPlan {
+    .pricingPlan-wrap {
+      .pricingPlan-c-elem {
+        flex-direction: row;
+        justify-content: space-between;
+        .pricingPlan-elem {
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: $mobScreenSize) {
   .pricingPlan {
     .pricingPlan-wrap {
@@ -83,20 +96,8 @@
         flex-direction: column;
         align-items: center;
         .pricingPlan-elem {
+          width: 100%;
           max-width: 426px;
-        }
-      }
-    }
-  }
-}
-
-@media screen and (max-width: $tabScreenSize) {
-  .pricingPlan {
-    .pricingPlan-wrap {
-      .pricingPlan-c-elem {
-        flex-direction: row;
-        justify-content: space-between;
-        .pricingPlan-elem {
         }
       }
     }
