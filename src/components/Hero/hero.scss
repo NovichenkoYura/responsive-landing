@@ -35,7 +35,7 @@
   }
   .hero-text {
     text-align: left;
-    color: #fff;
+    color: $whiteText;
     font-size: 18px;
     margin: 0 0 35px;
     max-width: 350px;
@@ -67,6 +67,15 @@
   }
 }
 
+@keyframes mobSlider {
+  0% {
+    left: -150vw;
+  }
+  100% {
+    left: 55vw;
+  }
+}
+
 @media screen and (max-width: $mobScreenSize) {
   .hero-c {
     .hero-g-c-body {
@@ -80,6 +89,8 @@
     left: auto;
     right: 0px;
     width: 45vw;
+
+    animation-name: mobSlider;
 
    }
 
