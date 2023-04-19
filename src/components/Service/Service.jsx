@@ -7,7 +7,7 @@ import './service.scss'
 export const Service = ()=>{
     return(
         <div className="service center">
-            <div className="max1170 ">
+            <div className="max1170 center">
                 <div className="service-wrap flexColumnJustifyBetween">
                 <div className="service-c-elem center">
                     <div className="service-elem flexJustifyAround">                    

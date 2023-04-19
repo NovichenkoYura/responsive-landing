@@ -2,13 +2,14 @@ import './features.scss'
 export const Features = () => {
     return(
         <div className="features-c flexColumnJustifyBetween" id="features">
-            <div className="max1170 flexColumnJustifyBetween">
-                <div className="feature-heading flexColumnJustifyBetween">
+            <div className="max1170 center">
+                <div className="features-wrap flexColumnJustifyBetween">
+                <div className="feature-heading centerColumn">
                     <h2>Best Features</h2>
                     <p>Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen. Lorem Ipsum is
                     de standaard proeftekst in deze bedrijfstak sinds.</p>                
                 </div>
-                <div className="features-c-elems between">
+                <div className="features-c-elems center">
                     <div className="feature-elem flexColumnJustifyBetween">
                         <div className="feature-elem-icon center">
                             <span className='center'><i className="features-icon icofont-alarm"></i></span>
@@ -52,6 +53,7 @@ export const Features = () => {
 
 
                     </div>
+                </div>
                 </div>
             </div>
 

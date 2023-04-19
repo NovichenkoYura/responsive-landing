@@ -23,9 +23,6 @@
     .pricingPlan-c-elem {
       width: 100%;
       gap: 30px;
-      // justify-content: flex-start;
-      
-      // justify-content: space-between;
       flex-wrap: wrap;
       .pricingPlan-elem {
         padding-top: 65px;
@@ -35,10 +32,8 @@
         min-width: 296px;
         height: 379px;
         border-radius: 10px;
-        // margin-bottom: 30px;
         cursor: pointer;
         transition: $transitionGeneral;
-        // gap: 10px;
         h4 {
           font-size: 20px;
           font-weight: $pDeskTextWeight;
@@ -83,10 +78,7 @@
     .pricingPlan-wrap {
       .pricingPlan-c-elem {
         justify-content: flex-start;
-        // width: auto;
-        // flex-direction: row;
-        // justify-content: space-between;
-        .pricingPlan-elem {
+         .pricingPlan-elem {
           width: calc(50% - 15px);
         }
       }
@@ -103,11 +95,8 @@
         align-items: center;
         .pricingPlan-elem {
           width: 100%;
-          // max-width: 426px;
         }
       }
     }
   }
 }
-
-
